@@ -4,8 +4,8 @@
 def gcd(a, b):
     if b == 0:
        return a
-    return gcd(b, a mod b)
+    return gcd(b, a % b)
 
-if __name__ == "main":
-    print(gcd(20422, 24))
+if __name__ == "__main__":
+    print(gcd(20422, 42))
 
